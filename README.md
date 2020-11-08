@@ -17,3 +17,15 @@ WORD-BASED FEATURES:
 * Bag of Words (BoW) model
 * Medical term word comparisons (based upon medical words / sentence, and medical words / label or classification)
 * Neighbor sentence (sentence before / sentence after) having the same classification of the sentence at hand
+
+PARAMETERS THAT NEED SET
+* text_filename - file to be read
+* labels - sentence labels/classification (1 - General, 2 - Pathology Results, 3 - Lab Results, 4 - Imaging Results)
+* test_size - fraction of data to be used for testing
+* classifier_obj_index - index of classifier object in classifiers list in main entry point
+* show_plot - set to true to see confusion matrix plot
+* save_model - set to true to save model as .av file
+
+HOW TO RUN:
+* Set variables in __main__ (see comments, variable description )
+* ./oa_p2.py
