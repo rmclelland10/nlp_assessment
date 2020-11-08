@@ -16,6 +16,9 @@ HOW TO RUN:
 * python/python3 oa_p1.py -file=sample.txt -task=2 -search=patient  ---> Displays count of 'patient' occurences in exercise_text.txt
 
 # PART-2
+LIMITATIONS:
+* Part 2 runs on a single text file, in which I manually labeled each sentence to what I believe its category would be. This brings two main limitations: inadequate sample size and inefficient labeling. To overcome these challenges, I would most likely have some sort of document library, where I could loop through each file, extract the necessary sentences, and then run through all the sentences at once for the model. To get around the manual labeling, I'd gather files which are entirely homogenuous in regards to the category its sentences corresponded to (for example, a lab report document or a Imaging report), so that the classfication of each sentence could be automated per document.
+
 PRE-PROCESSING (For each sentence):
 * Remove new lines, punctuation (according to the requirements), convert all words to lowercase
 * Run each word in sentence through a stemmer
@@ -29,6 +32,8 @@ WORD-BASED FEATURES:
 * Features not implemented but could potentially bring benefit:
   * Overall amount of words per sentence
   * Count/frequency of each type of word (noun, verb, adjective, etc.) per sentence
+  * Relationships between words in a sentence to additionally be able to label a negative/positive test result to the test
+  * Non-mutally exclusive classifications (a sentence can be a part of multiple categories)
 
 PARAMETERS THAT NEED SET (See main entry point in oa_p2.py)
 * text_filename - file to be read
