@@ -19,9 +19,9 @@ WORD-BASED FEATURES:
 * Number of Medical term words normalized across all sentences (and their labels/class), per sentence
 * Neighbor sentence comparison (sentence before / sentence after) having the same classification of the sentence at hand
 
-PARAMETERS THAT NEED SET
+PARAMETERS THAT NEED SET (See main entry point in oa_p2.py)
 * text_filename - file to be read
-* labels - sentence labels/classification (1 - General, 2 - Pathology Results, 3 - Lab Results, 4 - Imaging Results)
+* labels - sentence labels/classification for each sentence in text file (1 - General, 2 - Pathology Results, 3 - Lab Results, 4 - Imaging Results)
 * test_size - fraction of data to be used for testing
 * classifier_obj_index - index of classifier object in classifiers list in main entry point
 * show_plot - set to true to see confusion matrix plot
