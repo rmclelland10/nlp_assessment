@@ -4,6 +4,9 @@
 * git clone https://github.com/rmclelland10/nlp_assessment.git
 * change directory to nlp_assessment
 * pip install -r requirements.txt
+* Open up a python shell, and type:
+  * \>>> import nltk
+  * \>>> nltk.download('punkt')
 
 # PART-1
 HOW TO RUN:
