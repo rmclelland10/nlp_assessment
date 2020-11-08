@@ -26,6 +26,9 @@ WORD-BASED FEATURES:
 * Number of Medical term words / Total # of words, per sentence
 * Number of Medical term words normalized across all sentences (and their labels/class), per sentence
 * Neighbor sentence comparison (sentence before / sentence after) having the same classification of the sentence at hand
+* Features not implemented but could potentially bring benefit:
+  * Overall amount of words per sentence
+  * Count/frequency of each type of word (noun, verb, adjective, etc.) per sentence
 
 PARAMETERS THAT NEED SET (See main entry point in oa_p2.py)
 * text_filename - file to be read
