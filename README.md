@@ -16,8 +16,13 @@ HOW TO RUN:
 * python/python3 oa_p1.py -file=sample.txt -task=2 -search=patient  ---> Displays count of 'patient' occurences in exercise_text.txt
 
 # PART-2
+PRE-PROCESSING (For each sentence):
+* Remove new lines, punctuation (according to the requirements), convert all words to lowercase
+* Run each word in sentence through a stemmer
+* Remove stop-words from each sentence
+
 WORD-BASED FEATURES:
-* Bag of Words (BoW) model
+* Bag of Words (BoW) model --> vocabulary of unique words in text 
 * Number of Medical term words / Total # of words, per sentence
 * Number of Medical term words normalized across all sentences (and their labels/class), per sentence
 * Neighbor sentence comparison (sentence before / sentence after) having the same classification of the sentence at hand
