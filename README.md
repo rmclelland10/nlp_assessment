@@ -10,10 +10,10 @@
 
 # PART-1
 HOW TO RUN:
-* ./oa_p1.py -task=1  ---> Runs sorted display on exercise_text.txt
-* ./oa_p1.py -file=sample.txt -task=1  ---> Runs sorted display on a different file
-* ./oa_p1.py -task=2 -search=patient  ---> Displays count of 'patient' occurences in exercise_text.txt
-* ./oa_p1.py -file=sample.txt -task=2 -search=patient  ---> Displays count of 'patient' occurences in exercise_text.txt
+* python/python3 oa_p1.py -task=1  ---> Runs sorted display on exercise_text.txt
+* python/python3 oa_p1.py -file=sample.txt -task=1  ---> Runs sorted display on a different file
+* python/python3 oa_p1.py -task=2 -search=patient  ---> Displays count of 'patient' occurences in exercise_text.txt
+* python/python3 oa_p1.py -file=sample.txt -task=2 -search=patient  ---> Displays count of 'patient' occurences in exercise_text.txt
 
 # PART-2
 WORD-BASED FEATURES:
@@ -32,4 +32,4 @@ PARAMETERS THAT NEED SET (See main entry point in oa_p2.py)
 
 HOW TO RUN:
 * Set variables in __main__ (see comments, variable description )
-* ./oa_p2.py
+* python/python3 oa_p2.py
