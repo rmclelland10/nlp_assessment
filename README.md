@@ -1,4 +1,4 @@
-# nlp_assessment
+# nlp assessment
 
 # Set-up
 * git clone https://github.com/rmclelland10/nlp_assessment.git
@@ -15,8 +15,9 @@ HOW TO RUN:
 # PART-2
 WORD-BASED FEATURES:
 * Bag of Words (BoW) model
-* Medical term word comparisons (based upon medical words / sentence, and medical words / label or classification)
-* Neighbor sentence (sentence before / sentence after) having the same classification of the sentence at hand
+* # Medical term words / Total # of words, per sentence
+* # Medical term words normalized across all sentences (and their labels/class), per sentence
+* Neighbor sentence comparison (sentence before / sentence after) having the same classification of the sentence at hand
 
 PARAMETERS THAT NEED SET
 * text_filename - file to be read
